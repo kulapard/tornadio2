@@ -186,6 +186,9 @@ class TornadioWebSocketHandler(WebSocketHandler):
     # Websocket overrides
     def allow_draft76(self):
         return True
+        
+    def check_origin(self, origin):
+        return True
 
 
 class TornadioFlashSocketHandler(TornadioWebSocketHandler):
