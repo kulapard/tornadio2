@@ -18,8 +18,8 @@ except:
     readme = None
 
 setup(
-    name='TornadIO2',
-    version='0.0.3',
+    name='KP-TornadIO2',
+    version='0.0.4',
     author='Serge S. Koval',
     author_email='serge.koval@gmail.com',
     packages=['tornadio2'],
