@@ -18,7 +18,7 @@ except:
     readme = None
 
 setup(
-    name='HiC-TornadIO2',
+    name='HiCTornadIO2',
     version='0.0.5',
     author='Serge S. Koval, Taras Drapalyuk',
     author_email='serge.koval@gmail.com, taras@drapalyuk.com',
