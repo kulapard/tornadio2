@@ -24,7 +24,7 @@ setup(
     author_email='serge.koval@gmail.com, taras@drapalyuk.com',
     packages=['tornadio2'],
     scripts=[],
-    url='http://github.com/MrJoes/tornadio2/',
+    url='http://github.com/kulapard/tornadio2/',
     license=license,
     description='Fork of TornadIO2 0.0.4 (by Serge S. Koval). '
                 'Socket.io 0.7+ server implementation on top of Tornado framework',
