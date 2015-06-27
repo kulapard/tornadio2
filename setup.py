@@ -18,19 +18,20 @@ except:
     readme = None
 
 setup(
-    name='TornadIO2',
-    version='0.0.5dev',
-    author='Serge S. Koval',
-    author_email='serge.koval@gmail.com',
+    name='HiC-TornadIO2',
+    version='0.0.5',
+    author='Serge S. Koval, Taras Drapalyuk',
+    author_email='serge.koval@gmail.com, taras@drapalyuk.com',
     packages=['tornadio2'],
     scripts=[],
     url='http://github.com/MrJoes/tornadio2/',
     license=license,
-    description='Socket.io 0.7+ server implementation on top of Tornado framework',
+    description='Fork of TornadIO2 0.0.4 (by Serge S. Koval). '
+                'Socket.io 0.7+ server implementation on top of Tornado framework',
     long_description=readme,
     requires=['simplejson', 'tornado'],
     install_requires=[
         'simplejson >= 2.1.0',
-        'tornado >= 2.2.0'
+        'tornado >= 2.2.0,<=4.0.2',
     ]
 )
