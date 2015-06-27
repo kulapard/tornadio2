@@ -32,6 +32,6 @@ setup(
     requires=['simplejson', 'tornado'],
     install_requires=[
         'simplejson >= 2.1.0',
-        'tornado >= 2.2.0,<=4.0.2',
+        'tornado == 4.0.2,'
     ]
 )
