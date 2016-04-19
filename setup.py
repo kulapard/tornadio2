@@ -19,7 +19,7 @@ except:
 
 setup(
     name='HiCTornadIO2',
-    version='0.1.0',
+    version='0.1.1',
     author='Serge S. Koval, Taras Drapalyuk',
     author_email='serge.koval@gmail.com, taras@drapalyuk.com',
     packages=['tornadio2'],
@@ -31,7 +31,7 @@ setup(
     long_description=readme,
     requires=['simplejson', 'tornado'],
     install_requires=[
-        'simplejson >= 2.1.0',
-        'tornado == 4.0.2,'
+        'simplejson>=2.1.0,<3',
+        'tornado==4.0.2'
     ]
 )
