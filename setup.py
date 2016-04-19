@@ -19,7 +19,7 @@ except:
 
 setup(
     name='HiCTornadIO2',
-    version='0.1.1',
+    version='0.1.2',
     author='Serge S. Koval, Taras Drapalyuk',
     author_email='serge.koval@gmail.com, taras@drapalyuk.com',
     packages=['tornadio2'],
